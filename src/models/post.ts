@@ -29,7 +29,8 @@ const Post = new Schema({
     },
     category:{
         type:String,
-        require:true
+        require:true,
+        default:null
     }
 
 })

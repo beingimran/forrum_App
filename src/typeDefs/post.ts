@@ -20,7 +20,7 @@ interface ResponseWithStatus{
         lastActive: String!
         "Array of username"
         likes: [String]
-        category:String!
+        category:String
     }
     
     type Query{
